@@ -73,7 +73,7 @@ class FamilyStructure:
         ## Loop the list and delete the member with the given id
         for index, member in enumerate(self._members): # Recorre la lista y elimina el miembro con el id proporcionado
             if member["id"] == id:
-                self._members.pop(index) # ALSO this one -> "del self._members[index]"  OR  "self._members.remove(member)"
+                self._members.pop(index) # ALSO these ones --> "del self._members[index]"  OR  "self._members.remove(member)"
                 return True
         return False
 
