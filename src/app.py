@@ -66,7 +66,7 @@ TO-DOs:
         - GET /members/:id
 
     [x] Add one member
-        - POST members
+        - POST /members
 
     [x] Delete one member
         - DELETE /members/:id
