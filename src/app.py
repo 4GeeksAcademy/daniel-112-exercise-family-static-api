@@ -39,9 +39,9 @@ def sitemap():
 ########################################################################
 
 
-###################
-## EXAMPLE ENDPOINT
-###################
+######################
+## EXAMPLE ENDPOINT ##
+######################
 @app.route('/example', methods=['GET'])
 def example():
     # This is how you can use the Family datastructure by calling its methods
@@ -60,16 +60,16 @@ TO-DOs:
 [x] Create Endpoints:
 
     [x] Get ALL members
-        - GET method
+        - GET /members
 
     [x] Get ONE member
-        - Get method
+        - GET /members/:id
 
     [x] Add one member
-        - POST method
+        - POST members
 
     [x] Delete one member
-        - DELETE method
+        - DELETE /members/:id
 """
 
 #####################
