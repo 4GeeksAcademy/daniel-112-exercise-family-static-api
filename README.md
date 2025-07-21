@@ -1,6 +1,11 @@
 <!-- hide -->
 # Family Static API
 <!-- endhide -->
+---
+
+<p align="center"><img src="src/API_Documentation/API_Documentation_image.png" alt="API Documentation"></p>
+
+---
 
 The Jackson Family needs a static API! We need to build the *data structures* and create the API endpoints to interact with it using [Hoppscotch](https://hoppscotch.io/) (recommended) or Postman.
 
